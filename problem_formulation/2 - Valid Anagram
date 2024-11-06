@@ -1,0 +1,25 @@
+Problem:
+
+Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+
+---
+
+Examples:
+
+Example 1:
+Input: s = "anagram", t = "nagaram"
+Output: true
+
+Example 2:
+Input: s = "rat", t = "car"
+Output: false
+
+---
+
+Complete the following function with the solution.
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+
+---
+
+Your job is to come up with a correct solution. Optimize the solution such that it has the fast runtime possible for that problem. Write syntatically correct code for Python 3.0 that can run without any runtime errors and solves the problem at hand. Make sure to pay attention to the types of the inputs to the functions, and the type of the output of the function.
