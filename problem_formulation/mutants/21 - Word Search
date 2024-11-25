@@ -1,0 +1,24 @@
+Problem:
+
+You are given a grid of characters, called grid, and a string targetWord. Determine if targetWord can be formed by connecting letters from sequentially adjacent cells in the grid. Adjacent cells are next to each other either horizontally or vertically. A cell cannot be used more than once in the same word.
+
+---
+
+Examples:
+
+Example 1:
+Input: grid = [["X","Y","Z","W"],["A","B","C","D"],["E","F","G","H"]], targetWord = "XYZ"
+Output: true
+
+Example 2:
+Input: grid = [["A","M","N","O"],["P","Q","R","S"],["T","U","V","W"]], targetWord = "LMNOP"
+Output: false
+
+
+---
+
+Complete the following function with the solution.
+
+---
+
+Your job is to come up with a correct solution. Optimize the solution such that it has the fast runtime possible for that problem. Write syntatically correct code for Python 3.0 that can run without any runtime errors and solves the problem at hand. Make sure to pay attention to the types of the inputs to the functions, and the type of the output of the function.

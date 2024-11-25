@@ -1,6 +1,6 @@
 Problem:
 
-You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the ith line are (i, 0) and (i, height[i]).
+You are given a list of integers called heights, where each integer represents the height of a vertical line at that position. The x-axis and any two of these lines can form a container.
 
 Find two lines that together with the x-axis form a container, such that the container contains the most water.
 
@@ -13,13 +13,11 @@ Notice that you may not slant the container.
 Examples:
 
 Example 1:
-Input: height = [1,8,6,2,5,4,8,3,7]
-Output: 49
-Explanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.
+Input: heights = [2,3,4,5,16,17,6]
+Output: 16
+Explanation: The maximum water is held between the lines at index 2 and index 6, forming an area of 16.
 
-Example 2:
-Input: height = [1,1]
-Output: 1
+
 
 ---
 

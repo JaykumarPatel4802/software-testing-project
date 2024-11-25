@@ -1,0 +1,25 @@
+Problem:
+
+You have a list of numbers called numbers. Create a new list, result, where each position in result contains the product of all the numbers in numbers, except for the one at that position. Return that list.
+
+The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer.
+
+You must write an algorithm that runs in O(n) time and without using the division operation.
+
+---
+
+Examples:
+
+Example 1:
+Input: numbers = [3,5,7,9]
+Output: [315,189,135,105]
+
+---
+
+Complete the following function with the solution.
+class Solution:
+    def productExceptSelf(self, nums: List[int]) -> List[int]:
+
+---
+
+Your job is to come up with a correct solution. Optimize the solution such that it has the fast runtime possible for that problem. Write syntatically correct code for Python 3.0 that can run without any runtime errors and solves the problem at hand. Make sure to pay attention to the types of the inputs to the functions, and the type of the output of the function.

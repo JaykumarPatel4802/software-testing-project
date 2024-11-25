@@ -9,17 +9,14 @@ The word can be constructed from letters of sequentially adjacent cells, where a
 Examples:
 
 Example 1:
-![alt text](imgs/21.1.png)
 Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "ABCCED"
 Output: true
 
 Example 2:
-![alt text](imgs/21.2.png)
 Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "SEE"
 Output: true
 
 Example 3:
-![alt text](imgs/21.3.png)
 Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "ABCB"
 Output: false
 
