@@ -1,0 +1,25 @@
+Problem:
+
+The n-queens challenge involves placing n queens on an n x n chessboard so that no two queens can attack each other.
+
+Implement a function that takes an integer n and calculates all distinct solutions to the n-queens challenge. The output can be in any order. Each solution represents a configuration of the n-queens placement, and should use 'Q' for a queen and '.' for an empty square.
+
+---
+
+Examples:
+
+Example 1:
+
+Input: n = 5
+Output: [["Q....","..Q..","....Q",".Q...","...Q."],["Q....","...Q.",".Q...","....Q","..Q.."],[".Q...","...Q.","Q....","..Q..","....Q"],[".Q...","....Q","..Q..","Q....","...Q."],["..Q..","Q....","...Q.",".Q...","....Q"],["..Q..","....Q",".Q...","...Q.","Q...."],["...Q.","Q....","..Q..","....Q",".Q..."],["...Q.",".Q...","....Q","..Q..","Q...."],["....Q",".Q...","...Q.","Q....","..Q.."],["....Q","..Q..","Q....","...Q.",".Q..."]]
+Explanation: There exist ten distinct solutions to the 5-queens puzzle as shown above
+
+---
+
+Complete the following function with the solution.
+class Solution:
+    def solveNQueens(self, n: int) -> List[List[str]]:
+
+---
+
+Your job is to come up with a correct solution. Optimize the solution such that it has the fast runtime possible for that problem. Write syntatically correct code for Python 3.0 that can run without any runtime errors and solves the problem at hand. Make sure to pay attention to the types of the inputs to the functions, and the type of the output of the function.

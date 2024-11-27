@@ -1,0 +1,27 @@
+Problem:
+
+You are given a list of integers called numbers. Find the contiguous subarray within numbers that has the largest product, and return that product.
+
+The inputs are designed so that the output will always fit in a 32-bit integer.
+
+
+
+---
+
+Examples:
+
+Example 1:
+
+Input: numbers = [1,5,-2,4]
+Output: 5
+Explanation: [1,5] has the largest product 5.
+
+---
+
+Complete the following function with the solution.
+class Solution:
+    def maxProduct(self, numbers: List[int]) -> int:
+
+---
+
+Your job is to come up with a correct solution. Optimize the solution such that it has the fast runtime possible for that problem. Write syntatically correct code for Python 3.0 that can run without any runtime errors and solves the problem at hand. Make sure to pay attention to the types of the inputs to the functions, and the type of the output of the function.
