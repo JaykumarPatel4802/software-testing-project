@@ -30,4 +30,4 @@ class Solution:
 
 ---
 
-Your job is to come up with a correct solution. Optimize the solution such that it has the fast runtime possible for that problem. Write syntatically correct code for Python 3.0 that can run without any runtime errors and solves the problem at hand. Make sure to pay attention to the types of the inputs to the functions, and the type of the output of the function.
+This problem belongs to one of the following categories: "Arrays and Hashing", "Two Pointer", "Trees", "Graphs", "Backtracking", and "DP". Your job is to tell me which category it belongs to. Don't provide me an explanation. Simply provide the category.

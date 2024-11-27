@@ -1,0 +1,25 @@
+Problem:
+
+Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+
+---
+
+Examples:
+
+Example 1:
+Input: s = "anagram", t = "nagaram"
+Output: true
+
+Example 2:
+Input: s = "rat", t = "car"
+Output: false
+
+---
+
+Complete the following function with the solution.
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+
+---
+
+This problem belongs to one of the following categories: "Arrays and Hashing", "Two Pointer", "Trees", "Graphs", "Backtracking", and "DP". Your job is to tell me which category it belongs to. Don't provide me an explanation. Simply provide the category.
