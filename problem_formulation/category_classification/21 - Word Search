@@ -23,7 +23,9 @@ Output: false
 ---
 
 Complete the following function with the solution.
-
+class Solution:
+    def exist(self, board: List[List[str]], word: str) -> bool:
+    
 ---
 
 This problem belongs to one of the following categories: "Arrays and Hashing", "Two Pointer", "Trees", "Graphs", "Backtracking", and "DP". Your job is to tell me which category it belongs to. Don't provide me an explanation. Simply provide the category.
