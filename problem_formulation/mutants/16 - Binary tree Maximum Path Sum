@@ -1,0 +1,42 @@
+Problem:
+
+In a binary tree, a path is defined as a sequence of nodes where each pair of adjacent nodes is directly connected by an edge. A node can appear in the path at most once.
+
+The sum of a path is the total of all node values in that path.
+
+Given the root of a binary tree, find and return the maximum sum of any non-empty path in the tree.
+
+
+---
+
+Examples:
+
+Example 1:
+
+     5
+    / \
+   4   8
+
+Input: root = [5,4,8]
+Output: 17
+Explanation: The optimal path is 4 -> 5 -> 8 with a path sum of 4 + 5 + 8 = 17.
+
+
+---
+
+Complete the following function with the solution.
+
+"""Definition for a binary tree node.
+class TreeNode:
+     def __init__(self, val=0, left=None, right=None):
+         self.val = val
+         self.left = left
+         self.right = right
+"""
+class Solution:
+    def maxPathSum(self, root: Optional[TreeNode]) -> int:
+        
+        
+---
+
+Your job is to come up with a correct solution. Optimize the solution such that it has the fast runtime possible for that problem. Write syntatically correct code for Python 3.0 that can run without any runtime errors and solves the problem at hand. Make sure to pay attention to the types of the inputs to the functions, and the type of the output of the function.
