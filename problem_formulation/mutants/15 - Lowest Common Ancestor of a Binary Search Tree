@@ -1,0 +1,41 @@
+Problem:
+
+Given a binary tree, determine the lowest common ancestor (LCA) of two nodes in the tree.
+
+The LCA is the lowest node in the tree that has both given nodes as descendants. A node may also be considered a descendant of itself.
+
+
+
+---
+
+Examples:
+
+Example 1:
+
+      3
+    /   \
+   1     6
+    \   / 
+     2 5   
+
+Input: root = [3,1,6,null,2,5], p = 5, q = 3
+Output: 3
+
+---
+
+Complete the following function with the solution.
+
+"""Definition for a binary tree node.
+class TreeNode:
+     def __init__(self, val=0, left=None, right=None):
+         self.val = val
+         self.left = left
+         self.right = right
+"""
+class Solution:
+    def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
+        
+        
+---
+
+Your job is to come up with a correct solution. Optimize the solution such that it has the fast runtime possible for that problem. Write syntatically correct code for Python 3.0 that can run without any runtime errors and solves the problem at hand. Make sure to pay attention to the types of the inputs to the functions, and the type of the output of the function.
