@@ -18,7 +18,9 @@ Output: false
 ---
 
 Complete the following function with the solution.
-
+class Solution:
+    def exist(self, grid: List[List[str]], targetWord: str) -> bool:
+        
 ---
 
 Your job is to come up with a correct solution. Optimize the solution such that it has the fast runtime possible for that problem. Write syntatically correct code for Python 3.0 that can run without any runtime errors and solves the problem at hand. Make sure to pay attention to the types of the inputs to the functions, and the type of the output of the function.
