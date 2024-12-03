@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.26)  1 DEC 2024 12:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.26)  3 DEC 2024 14:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -207,40 +207,69 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 47.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 47.
-
-Underfull \hbox (badness 6808) in paragraph at lines 94--94
-[]\elvbf Testing Cat-e-go-riza-tion Abil-ity of
- []
-
-[1{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
+ [1{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
 ]
-Underfull \hbox (badness 7047) in paragraph at lines 106--108
+Underfull \vbox (badness 2781) has occurred while \output is active []
+
+
+Underfull \hbox (badness 6808) in paragraph at lines 100--100
+[]\elvbf Testing Cat-e-go-riza-tion Abil-ity of
+ []
+
+[2]
+Underfull \hbox (badness 7047) in paragraph at lines 112--114
 []\OT1/ptm/m/n/10 Recognizing that al-go-rith-mic prob-lems are of-ten
  []
 
-(./latex8.bbl
+<imgs/chat.png, id=13, 711.15688pt x 218.8175pt>
+File: imgs/chat.png Graphic file (type png)
+<use imgs/chat.png>
+Package pdftex.def Info: imgs/chat.png  used on input line 134.
+(pdftex.def)             Requested size: 223.58379pt x 68.79431pt.
+<imgs/gemini.png, id=15, 702.12312pt x 209.28188pt>
+File: imgs/gemini.png Graphic file (type png)
+<use imgs/gemini.png>
+Package pdftex.def Info: imgs/gemini.png  used on input line 142.
+(pdftex.def)             Requested size: 223.58379pt x 66.64264pt.
+<imgs/llama.png, id=16, 581.67313pt x 185.69376pt>
+File: imgs/llama.png Graphic file (type png)
+<use imgs/llama.png>
+Package pdftex.def Info: imgs/llama.png  used on input line 150.
+(pdftex.def)             Requested size: 223.58379pt x 71.37755pt.
+[3 <./imgs/chat.png> <./imgs/gemini.png> <./imgs/llama.png>]
+<imgs/categorization_all3.png, id=23, 382.93062pt x 230.8625pt>
+File: imgs/categorization_all3.png Graphic file (type png)
+<use imgs/categorization_all3.png>
+Package pdftex.def Info: imgs/categorization_all3.png  used on input line 173.
+(pdftex.def)             Requested size: 223.58379pt x 134.79509pt.
+<imgs/mutant-testing.png, id=24, 605.26125pt x 134.00063pt>
+File: imgs/mutant-testing.png Graphic file (type png)
+<use imgs/mutant-testing.png>
+Package pdftex.def Info: imgs/mutant-testing.png  used on input line 185.
+(pdftex.def)             Requested size: 223.58379pt x 49.4997pt.
+ (./latex8.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [2] (./latex8.aux) ) 
+ [4 <./imgs/categorization_all3.png> <./imgs/mutant-testing.png>] (./latex8.aux) ) 
 Here is how much of TeX's memory you used:
- 4612 strings out of 476001
- 82650 string characters out of 5793197
- 1863068 words of memory out of 5000000
- 25044 multiletter control sequences out of 15000+600000
- 526613 words of font info for 57 fonts, out of 8000000 for 9000
+ 4688 strings out of 476001
+ 83988 string characters out of 5793197
+ 1866068 words of memory out of 5000000
+ 25112 multiletter control sequences out of 15000+600000
+ 527691 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,8n,77p,708b,244s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 67i,8n,77p,1538b,565s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on latex8.pdf (2 pages, 57355 bytes).
+Output written on latex8.pdf (4 pages, 277157 bytes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 49 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
