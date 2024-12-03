@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.26)  3 DEC 2024 14:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.26)  3 DEC 2024 15:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -249,24 +249,20 @@ File: imgs/mutant-testing.png Graphic file (type png)
 <use imgs/mutant-testing.png>
 Package pdftex.def Info: imgs/mutant-testing.png  used on input line 185.
 (pdftex.def)             Requested size: 223.58379pt x 49.4997pt.
- (./latex8.bbl
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-)
+ (./latex8.bbl)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4 <./imgs/categorization_all3.png> <./imgs/mutant-testing.png>] (./latex8.aux) ) 
 Here is how much of TeX's memory you used:
- 4688 strings out of 476001
- 83988 string characters out of 5793197
+ 4690 strings out of 476001
+ 84009 string characters out of 5793197
  1866068 words of memory out of 5000000
- 25112 multiletter control sequences out of 15000+600000
+ 25114 multiletter control sequences out of 15000+600000
  527691 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,8n,77p,1486b,565s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on latex8.pdf (4 pages, 277372 bytes).
+Output written on latex8.pdf (4 pages, 277465 bytes).
 PDF statistics:
  49 PDF objects out of 1000 (max. 8388607)
  24 compressed objects within 1 object stream

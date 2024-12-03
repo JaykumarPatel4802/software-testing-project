@@ -1,3 +1,11 @@
-\begin{thebibliography}{}\setlength{\itemsep}{-1ex}\small
+\begin{thebibliography}{1}\setlength{\itemsep}{-1ex}\small
+
+\bibitem{Lacy_2024}
+L.~Lacy.
+\newblock Gpt-4o and gemini 1.5 pro: How the new ai models compare, Jul 2024.
+
+\bibitem{neetcode}
+N.~Singh.
+\newblock Neetcode.
 
 \end{thebibliography}
