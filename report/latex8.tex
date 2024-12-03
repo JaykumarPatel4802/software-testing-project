@@ -123,6 +123,79 @@ Note: We only perform mutations on ten problems in the medium and hard category.
 To indirectly examine the impact of LLM size on performance, we leveraged the inherent differences in sizes among ChatGPT, Gemini, and Llama. We compared their accuracy, consistency, categorization ability, and robustness to mutations. Since ChatGPT, Gemini, and Llama vary in size, this approach allows us to determine the impact of LLM size on performance.
 
 \Section{Results}
+
+\subsection{Accuracy and Consistency of Generated Code for Original Problems}
+
+\begin{figure}[h]
+    \centering
+    % First subfigure
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{imgs/chat.png} % Replace with your image file
+        \caption{Accuracy and Consistency of ChatGPT4o}
+        \label{fig:sub1}
+    \end{subfigure}
+    \hfill
+    % Second subfigure
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{imgs/gemini.png} % Replace with your image file
+        \caption{Accuracy and Consistency of Gemini 1.5 Flash}
+        \label{fig:sub2}
+    \end{subfigure}
+    \hfill
+    % Third subfigure
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{imgs/llama.png} % Replace with your image file
+        \caption{Accuracy and Consistency of Llama 3 8B}
+        \label{fig:sub3}
+    \end{subfigure}
+    % Overall caption
+    \caption{Accuracy Results for all 3 models}
+    \label{fig:main}
+\end{figure}
+...
+
+
+The results of our experiment can be seen in Figure~\ref{fig:main}. Figure~\ref{fig:sub1} shows the accuracy and consistency of the code generated for each Leetcode question for ChatGPT4o. This model was able to provide code that passed all of the given test cases for each of the 3 trials that were performed for each problem, regardless of the difficulty level or problem categorization.
+
+Figure~\ref{fig:sub2} shows the results for Gemini Flash 1.5. The results for this model were comparable to the results from ChatGPT4o, with only 3 incorrect solutions out of the 32 problems that were being tested. An interesting thing to note for this model is that the responses were consistent, even in its wrong answers. For the problems Gemini was unable to provide a correct solution for, it produced an incorrect response for all 3 trials, with each response generating the same error in the IDE. 
+
+The results for the last model, Llama 3 8B, can be seen in Figure~\ref{fig:sub3}. As shown in the graphs, there are far more variations or inconsistencies in the results from this model
+It was able to generate correct responses for most of medium and easy level questions, but the hard-type questions received more incorrect responses. This is probably due to the fact that  hard questions are more nuanced and have more edge cases to be aware of that the model was not able to capture in its code. In terms of problem category,
+Arrays/Hashing and Two-pointer questions were answered more accuracy, and this is likely because these questions typically more widespread and easier to answer than DP/Graph problems. 
+
+\subsection{Problem Categorization Accuracy}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.45
+    \textwidth]{imgs/categorization_all3.png} % Replace 'example.jpg' with your image file
+    \caption{Results for problem categorization}
+    \label{fig:example} % Label for referencing
+\end{figure}
+
+Figure \ref{fig:example} shows the results for problem categorization for each of the 3 models. Overall, all 3 models were able to categorize most, if not all, of the 32 questions that were tested. The model with the lowest accuracy was LLama 3, with an accuracy of 30/32. 
+
+\subsection{Accuracy and Consistency on Mutated Problems}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.45
+    \textwidth]{imgs/mutant-testing.png} % Replace 'example.jpg' with your image file
+    \caption{Results for Mutation Testing}
+    \label{fig:mutation} % Label for referencing
+\end{figure}
+
+Mutation testing was performed on all 3 models in order to test their generalizability or adaptability, in the case that the exact versions of the LeetCode problems were present in the training dataset and already seen by the models during training. As seen in Figure~\ref{fig:mutation}, Gemini produced the same results as the original data, whereas ChatGPT and LLama saw a decrease in accuracy, with a far a larger decrease for LLama. This could be attributed to ChatGPT4o and Gemini being more finetuned or optimized for programming tasks compared to Llama, and are better at adapting to variations in problem definitions due to their larger model size and refined architecture. 
+
+
+\subsection{Analysis of Results}
+For our experiment, we saw that models with more parameters (ChatGPT4o and Gemini) performed better overall than models with less parameters (Llama 7 8B). Within the scope of our project, we were able to conclude that they may be a correlation between model size and the ability to generate accurate and consistent code for DSA problems. However, one thing to consider is that Gemini Flash 1.5 is a more lightweight model that was trained through model distillation from larger models (with sizes comparable to ChatGPT4o). Gemini Flash 1.5 therefore has far fewer parameters than ChatGPT4o, but has relatively comparable results. Therefore, though model size may impact performance, there is not a linear correlation between number of parameters and accuracy. Other factors may also play a role in model performance, such as model architecture, training time/methodologies, training data, context window, etc. 
+
+Additionally, we noticed that ChatGPT4o and Gemini Flash 1.5 occasionally cited websites such as GitHub or LeetCode itself in its responses, which is an indication that these models utilize Retreival Augmented Generation (RAG). More advanced models are known to combine traditional querying/document retrieval with generative AI, which may also be a reason for their improved performance.
+
 ...
 
 
