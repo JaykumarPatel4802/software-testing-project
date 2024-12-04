@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.26)  3 DEC 2024 21:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.26)  3 DEC 2024 21:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -345,78 +345,77 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -10.0pt
-(hyperref)                removed on input line 74.
+(hyperref)                removed on input line 76.
 
 
-Underfull \vbox (badness 6542) has occurred while \output is active []
-
-
-Underfull \hbox (badness 6808) in paragraph at lines 100--100
+Underfull \hbox (badness 6808) in paragraph at lines 102--102
 []\elvbf Testing Cat-e-go-riza-tion Abil-ity of
  []
 
 [2]
-Underfull \hbox (badness 7047) in paragraph at lines 112--114
+Underfull \hbox (badness 7047) in paragraph at lines 114--116
 []\OT1/ptm/m/n/10 Recognizing that al-go-rith-mic prob-lems are of-ten
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -10.0pt
-(hyperref)                removed on input line 125.
+(hyperref)                removed on input line 127.
 
-<imgs/chat.png, id=86, 711.15688pt x 218.8175pt>
+<imgs/chat.png, id=88, 711.15688pt x 218.8175pt>
 File: imgs/chat.png Graphic file (type png)
 <use imgs/chat.png>
-Package pdftex.def Info: imgs/chat.png  used on input line 134.
+Package pdftex.def Info: imgs/chat.png  used on input line 136.
 (pdftex.def)             Requested size: 223.58379pt x 68.79431pt.
-<imgs/gemini.png, id=88, 702.12312pt x 209.28188pt>
+<imgs/gemini.png, id=90, 702.12312pt x 209.28188pt>
 File: imgs/gemini.png Graphic file (type png)
 <use imgs/gemini.png>
-Package pdftex.def Info: imgs/gemini.png  used on input line 142.
+Package pdftex.def Info: imgs/gemini.png  used on input line 144.
 (pdftex.def)             Requested size: 223.58379pt x 66.64264pt.
-<imgs/llama.png, id=89, 581.67313pt x 185.69376pt>
+<imgs/llama.png, id=91, 581.67313pt x 185.69376pt>
 File: imgs/llama.png Graphic file (type png)
 <use imgs/llama.png>
-Package pdftex.def Info: imgs/llama.png  used on input line 150.
+Package pdftex.def Info: imgs/llama.png  used on input line 152.
 (pdftex.def)             Requested size: 223.58379pt x 71.37755pt.
 [3 <./imgs/chat.png> <./imgs/gemini.png> <./imgs/llama.png>]
-<imgs/categorization_all3.png, id=106, 382.93062pt x 230.8625pt>
+<imgs/categorization_all3.png, id=108, 382.93062pt x 230.8625pt>
 File: imgs/categorization_all3.png Graphic file (type png)
 <use imgs/categorization_all3.png>
-Package pdftex.def Info: imgs/categorization_all3.png  used on input line 173.
+Package pdftex.def Info: imgs/categorization_all3.png  used on input line 175.
 (pdftex.def)             Requested size: 223.58379pt x 134.79509pt.
-<imgs/mutant-testing.png, id=108, 605.26125pt x 134.00063pt>
+<imgs/mutant-testing.png, id=110, 605.26125pt x 134.00063pt>
 File: imgs/mutant-testing.png Graphic file (type png)
 <use imgs/mutant-testing.png>
-Package pdftex.def Info: imgs/mutant-testing.png  used on input line 185.
+Package pdftex.def Info: imgs/mutant-testing.png  used on input line 187.
 (pdftex.def)             Requested size: 223.58379pt x 49.4997pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -10.0pt
-(hyperref)                removed on input line 199.
+(hyperref)                removed on input line 201.
 
-(./latex8.bbl)
+[4 <./imgs/categorization_all3.png> <./imgs/mutant-testing.png>] (./latex8.bbl)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4 <./imgs/categorization_all3.png> <./imgs/mutant-testing.png>] (./latex8.aux)
+ [5
+
+] (./latex8.aux)
 Package rerunfilecheck Info: File `latex8.out' has not changed.
 (rerunfilecheck)             Checksum: C71B60888F2203ACE55FBFA8E292C787;3244.
  ) 
 Here is how much of TeX's memory you used:
- 11784 strings out of 476001
- 194187 string characters out of 5793197
+ 11787 strings out of 476001
+ 194284 string characters out of 5793197
  1872068 words of memory out of 5000000
- 32068 multiletter control sequences out of 15000+600000
+ 32069 multiletter control sequences out of 15000+600000
  527691 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,8n,77p,1486b,586s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on latex8.pdf (4 pages, 280742 bytes).
+Output written on latex8.pdf (5 pages, 282940 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
- 124 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
+ 156 PDF objects out of 1000 (max. 8388607)
+ 129 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
  146 words of extra memory for PDF output out of 10000 (max. 10000000)
 

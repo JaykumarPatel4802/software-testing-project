@@ -7,6 +7,10 @@ Introducing meta llama 3: The most capable openly available llm to date, Apr 202
 L.~Lacy.
 \newblock Gpt-4o and gemini 1.5 pro: How the new ai models compare, Jul 2024.
 
+\bibitem{li2024evaluatingchatgpt35efficiencysolving}
+M.~Li and B.~Krishnamachari.
+\newblock Evaluating chatgpt-3.5 efficiency in solving coding problems of different complexity levels: An empirical analysis, 2024.
+
 \bibitem{neetcode}
 N.~Singh.
 \newblock Neetcode.
