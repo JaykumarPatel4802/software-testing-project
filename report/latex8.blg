@@ -3,48 +3,49 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: latex8.aux
 The style file: latex8.bst
 Database file #1: latex8.bib
+Warning--to sort, need author or key in leetcode
 Warning--to sort, need author or key in copilot
 Warning--to sort, need author or key in Introducing_Claude_3.5_Sonnet_Anthropic
 Warning--to sort, need author or key in AIatMeta_2024
-You've used 10 entries,
+You've used 11 entries,
             2118 wiz_defined-function locations,
-            539 strings with 10197 characters,
-and the built_in function-call counts, 11517 in all, are:
-= -- 781
-> -- 1610
+            542 strings with 10282 characters,
+and the built_in function-call counts, 11665 in all, are:
+= -- 793
+> -- 1611
 < -- 0
-+ -- 647
++ -- 648
 - -- 636
-* -- 1316
-:= -- 2144
-add.period$ -- 17
-call.type$ -- 10
-change.case$ -- 348
+* -- 1321
+:= -- 2158
+add.period$ -- 18
+call.type$ -- 11
+change.case$ -- 351
 chr.to.int$ -- 0
-cite$ -- 13
-duplicate$ -- 70
-empty$ -- 224
+cite$ -- 15
+duplicate$ -- 77
+empty$ -- 247
 format.name$ -- 636
-if$ -- 1975
+if$ -- 2012
 int.to.chr$ -- 0
-int.to.str$ -- 10
+int.to.str$ -- 11
 missing$ -- 0
-newline$ -- 40
+newline$ -- 43
 num.names$ -- 14
-pop$ -- 399
+pop$ -- 407
 preamble$ -- 1
-purify$ -- 338
+purify$ -- 340
 quote$ -- 0
-skip$ -- 84
+skip$ -- 94
 stack$ -- 0
-substring$ -- 51
-swap$ -- 10
+substring$ -- 56
+swap$ -- 11
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 40
-warning$ -- 3
+type$ -- 44
+warning$ -- 4
 while$ -- 14
-width$ -- 12
-write$ -- 74
-(There were 3 warnings)
+width$ -- 13
+write$ -- 79
+(There were 4 warnings)
