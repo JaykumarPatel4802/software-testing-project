@@ -1,10 +1,10 @@
 \begin{thebibliography}{10}\setlength{\itemsep}{-1ex}\small
 
+\bibitem{copilot}
+Github copilot - the world’s most widely adopted ai developer tool.
+
 \bibitem{leetcode}
 Leetcode.
-
-\bibitem{copilot}
-The world’s most widely adopted ai developer tool.
 
 \bibitem{Introducing_Claude_3.5_Sonnet_Anthropic}
 Claude 3.5 sonnet, Jun 2024.

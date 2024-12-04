@@ -9,12 +9,12 @@ Warning--to sort, need author or key in Introducing_Claude_3.5_Sonnet_Anthropic
 Warning--to sort, need author or key in AIatMeta_2024
 You've used 11 entries,
             2118 wiz_defined-function locations,
-            542 strings with 10282 characters,
-and the built_in function-call counts, 11665 in all, are:
+            542 strings with 10299 characters,
+and the built_in function-call counts, 11663 in all, are:
 = -- 793
 > -- 1611
 < -- 0
-+ -- 648
++ -- 647
 - -- 636
 * -- 1321
 := -- 2158
@@ -38,7 +38,7 @@ purify$ -- 340
 quote$ -- 0
 skip$ -- 94
 stack$ -- 0
-substring$ -- 56
+substring$ -- 55
 swap$ -- 11
 text.length$ -- 0
 text.prefix$ -- 0
