@@ -19,7 +19,7 @@
 \usepackage{hyperref}
 
 
-%\documentstyle[times,art10,twocolumn,latex8]{article}
+% \documentstyle[times,art10,twocolumn,latex8]{article}
 
 %------------------------------------------------------------------------- 
 % take the % away on next line to produce the final camera-ready version 
@@ -77,14 +77,14 @@ Additionally, a prior research has tested older models, such as ChatGPT-3.5, on 
 
 \subsection{Model Selection}
 
-For this study, we selected three Large Language Models (LLMs) of varying architecture and scale: ChatGPT-4o, Gemini 1.5 Flash, and Llama 3 8B. These models were chosen based on their widespread use, diverse range of size (number of parameters), and representation of state-of-the-art capabilities in natural language processing and reasoning. The exact sizes of the models (in terms of the number of parameters) are not publicly disclosed. However, estimates suggest that ChatGPT-4o contains over 1 trillion parameters \cite{Lacy_2024}, Llama 3 8B has about 8 billion parameters \cite{AIatMeta_2024}, and Gemini 1.5 Flash falls somewhere in between.
+For this study, we selected three Large Language Models (LLMs) of varying architecture and scale: ChatGPT-4o, Gemini 1.5 Flash, and Llama 3 8B. These models were chosen based on their widespread use, diverse range of size (number of parameters), and representation of state-of-the-art capabilities in natural language processing. The exact sizes of the models (in terms of the number of parameters) are not publicly disclosed. However, estimates suggest that ChatGPT-4o contains over 1 trillion parameters \cite{Lacy_2024}, Llama 3 8B has about 8 billion parameters \cite{AIatMeta_2024}, and Gemini 1.5 Flash falls somewhere in between.
 
 By comparing these models, we can assess performance trends across diverse LLMs, providing insights into their strengths and weaknesses in solving algorithmic problems and adapting to challenges such as mutations and categorization tasks.
 
 \subsection{NeetCode and Problem Selection}
 NeetCode is a widely used resource among students preparing for coding interviews \cite{neetcode}. It organizes 150 LeetCode problems into categories such as Arrays and Hashing, Two Pointer, Trees, Graphs, and Dynamic Programming (DP), with further distinctions based on difficulty (easy, medium, and hard). These problems collectively represent common types of questions asked in technical interviews, making them an ideal dataset for evaluating Large Language Models (LLMs).
 
-For our study, we sampled 32 problems from NeetCode's curated list, ensuring representation across multiple categories and difficulty levels. This sampling strategy enables a balanced evaluation of LLM performance, reflecting the diverse nature of algorithmic problem-solving tasks typically encountered by interviewees. By using NeetCode, we also leverage its existing categorization framework, which serves as a benchmark for testing the LLMs' ability to classify problems accurately.
+For our study, we sampled 32 problems from NeetCode's curated list, ensuring representation across multiple categories and difficulty levels. This sampling strategy enables a balanced evaluation of LLM performance, reflecting the wide range of problems typically encountered by interviewees. Additionally, NeetCode's existing problem categorizations serve as ground truth for testing the LLMs' ability to classify problems accurately.
 
 \subsection{Testing Accuracy and Consistency of LLMs}
 To assess the accuracy and consistency of the LLMs in solving algorithmic problems, we followed these steps:
@@ -95,7 +95,7 @@ To assess the accuracy and consistency of the LLMs in solving algorithmic proble
     \item The output solutions tested on the LeetCode platform for correctness.
 \end{enumerate}
 
-This approach allows us to determine if certain categories are more challenging by nature and how the models perform as the difficulty level of the problem changes. This provides insights into the LLMs' accuracy and consistency in solving algorithmic challenges that span various topics and difficulty levels.
+This approach allows us to determine if certain categories are more challenging by nature and how the models perform as the difficulty level of the problem changes. This provides insights into the LLMs' accuracy and consistency in solving DSA problems that span various topics and difficulty levels.
 
 Note: Along with verifying if a solution passes a diverse set of test cases, LeetCode also evaluates its optimality by enforcing runtime and memory usage constraints. This mirrors real-world interviews, where candidates are typically expected to provide solutions that are both correct and efficient.
 
@@ -111,15 +111,15 @@ This approach allows us to determine how accurately the LLMs can infer underlyin
 
 \subsection{Testing Accuracy and Consistency on Mutated Problems}
 
-Recognizing that algorithmic problems are often rephrased or slightly altered during interviews, we introduced mutation testing to evaluate LLM robustness. On LeetCode, problems consist of the problem statement and test cases that specify various inputs and outputs. Mutations were applied to ten problems, including:
+Recognizing that DSA problems are often rephrased or slightly altered during interviews, we introduced mutation testing to evaluate LLM robustness. On LeetCode, problems consist of the problem statement and test cases that specify various inputs and outputs. The following methods were used to generate mutations:
 \begin{enumerate}
     \item \textbf{Rewording:} Altering phrasing or replacing variable names.
     \item \textbf{Test Case Modifications:} Modifying test cases to different valid inputs and outputs or deleting one or more test cases.
 \end{enumerate}
 
-The LLMs were tested on the mutated problems using the same approach as in Section 3.3. By comparing performance on original vs. mutated problems, we assessed the models' ability to adapt to variations in problem presentation.
+Mutations were applied to ten problems and the LLMs were tested on the mutated problems using the same approach as in Section 3.3. By comparing performance on original vs. mutated problems, we assessed the models' ability to adapt to variations in problem presentation.
 
-Note: We only perform mutations on ten problems in the medium and hard category. We excluded the easy category from mutation testing because such problems typically involve straightforward logic and limited complexity, making them less representative of real-world interview scenarios where subtle variations in problem statements or test cases can challenge a candidate's problem-solving skills. By focusing on medium and hard problems, we ensure that the mutations provide a meaningful test of the LLMs’ ability to adapt to nuanced changes in problem.
+Note: We only perform mutations on ten problems in the medium and hard category. We excluded the easy category from mutation testing because such problems typically involve straightforward logic and limited complexity, making them less representative of real-world interview scenarios. By focusing on medium and hard problems, we ensure that the mutations provide a meaningful test of the LLMs’ ability to adapt to nuanced changes in problem.
 
 \subsection{Comparing LLM Size on Performance}
 To indirectly examine the impact of LLM size on performance, we leveraged the inherent differences in sizes among ChatGPT-4o, Gemini 1.5 Flash, and Llama 3 8B. We compared their accuracy, consistency, categorization ability, and robustness to mutations. Since ChatGPT-4o, Gemini 1.5 Flash, and Llama 3 8B vary in size, this approach allows us to determine the impact of LLM size on performance.

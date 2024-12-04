@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.26)  3 DEC 2024 21:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.26)  3 DEC 2024 22:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -353,10 +353,6 @@ Underfull \hbox (badness 6808) in paragraph at lines 102--102
  []
 
 [2]
-Underfull \hbox (badness 7047) in paragraph at lines 114--116
-[]\OT1/ptm/m/n/10 Recognizing that al-go-rith-mic prob-lems are of-ten
- []
-
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -10.0pt
@@ -412,7 +408,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,8n,77p,1486b,586s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on latex8.pdf (5 pages, 282940 bytes).
+Output written on latex8.pdf (5 pages, 282862 bytes).
 PDF statistics:
  156 PDF objects out of 1000 (max. 8388607)
  129 compressed objects within 2 object streams
